@@ -1,0 +1,77 @@
+html {
+    font-family: 'Scary Notes';
+}
+
+
+
+.question {
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-top: 13rem;
+}
+
+.quest-title {
+    text-align: center;
+}
+
+.answer {
+    background-color: #C4C2B7;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0 15px rgba(196, 194, 183, 1);
+    border-radius: 0.5rem;
+} 
+
+#next {
+    background-color: #32CD32;
+    box-shadow: 0 0 15px rgba(50, 205, 50, 1);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 3rem;
+    margin: auto;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 0.5rem;
+    color: #1B1B19;
+}
+
+#results {
+    color: #C4C2B7;
+    text-align: center;
+    position: relative;
+    top: 10rem;
+}
+
+.final-button {
+    background-color: #C4C2B7;
+    color: #1B1B19;
+    width: 7rem;
+    padding: 0.5rem;
+    margin: auto;
+    box-shadow: 0 0 15px rgba(196, 194, 183, 1);
+    border-radius: 0.5rem;
+}
+
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 1.4rem;
+    }
+
+    .question {
+        width: 50%;
+        margin: auto;
+        margin-top: 13rem;
+    }
+
+    .answer:hover {
+        opacity: 0.7;
+    }
+
+    #next:hover {
+        opacity: 0.7;
+    }
+}
+

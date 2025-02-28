@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/quiz.css">
+    <title>Hermione Granger Quiz</title>
+    <style>
+        .title {
+            background-image: linear-gradient(to right, #1B1B19, #790d0d);
+            background-clip: text;
+            color: transparent;
+        }
+
+        .quest-title {
+            background-image: linear-gradient(to right, #C4C2B7, #790d0d);
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="mobile-nav">
+        <img src="../images/harrypotterpng.png" alt="Harry Potter">
+        <h1 class="title">Hermione Granger Quiz</h1>
+        <img src="../images/deathHallows.png" alt="">
+    </nav>
+
+    <section>
+        <div id="question1" class="question">
+            <h1 class="quest-title">What is Hermione Granger's middle name?</h1>
+            <h2 id="first-answer" class="answer">Jean</h2>
+            <h2 id="second-answer" class="answer">Rose</h2>
+            <h2 id="third-answer" class="answer">Lily</h2>
+            <h2 id="fourth-answer" class="answer">Mary</h2>
+        </div>
+        
+        <div id="question2" class="question">
+            <h1 class="quest-title">What is the name of Hermione's cat?</h1>
+            <h2 id="first-answer" class="answer">Crookshanks</h2>
+            <h2 id="second-answer" class="answer">Trevor</h2>
+            <h2 id="third-answer" class="answer">Fluffy</h2>
+            <h2 id="fourth-answer" class="answer">Scabbers</h2>
+        </div>
+        
+        <div id="question3" class="question">
+            <h1 class="quest-title">What is Hermione’s blood status?</h1>
+            <h2 id="first-answer" class="answer">Muggle-born</h2>
+            <h2 id="second-answer" class="answer">Pure-blood</h2>
+            <h2 id="third-answer" class="answer">Half-blood</h2>
+            <h2 id="fourth-answer" class="answer">Squib</h2>
+        </div>
+        
+        <div id="question4" class="question">
+            <h1 class="quest-title">What does Hermione use to attend multiple classes at once in her third year?</h1>
+            <h2 id="first-answer" class="answer">Time-Turner</h2>
+            <h2 id="second-answer" class="answer">Portkey</h2>
+            <h2 id="third-answer" class="answer">Invisibility Cloak</h2>
+            <h2 id="fourth-answer" class="answer">Teleportation Spell</h2>
+        </div>
+        
+        <div id="question5" class="question">
+            <h1 class="quest-title">What is the name of the society Hermione creates to support house-elves?</h1>
+            <h2 id="first-answer" class="answer">S P E W</h2>
+            <h2 id="second-answer" class="answer">D A</h2>
+            <h2 id="third-answer" class="answer">W A S P</h2>
+            <h2 id="fourth-answer" class="answer">L E F</h2>
+        </div>
+        
+        <div id="question6" class="question">
+            <h1 class="quest-title">What is Hermione's greatest fear, revealed by a Boggart?</h1>
+            <h2 id="first-answer" class="answer">Failure</h2>
+            <h2 id="second-answer" class="answer">Spiders</h2>
+            <h2 id="third-answer" class="answer">Death</h2>
+            <h2 id="fourth-answer" class="answer">Dementors</h2>
+        </div>
+        
+        <div id="question7" class="question">
+            <h1 class="quest-title">Which potion does Hermione successfully brew in her second year?</h1>
+            <h2 id="first-answer" class="answer">Polyjuice Potion</h2>
+            <h2 id="second-answer" class="answer">Felix Felicis</h2>
+            <h2 id="third-answer" class="answer">Veritaserum</h2>
+            <h2 id="fourth-answer" class="answer">Amortentia</h2>
+        </div>
+        
+        <div id="question8" class="question">
+            <h1 class="quest-title">What subject does Hermione get a Time-Turner for?</h1>
+            <h2 id="first-answer" class="answer">Arithmancy</h2>
+            <h2 id="second-answer" class="answer">Transfiguration</h2>
+            <h2 id="third-answer" class="answer">Muggle Studies</h2>
+            <h2 id="fourth-answer" class="answer">Defense Against the Dark Arts</h2>
+        </div>
+        
+        <div id="question9" class="question">
+            <h1 class="quest-title">What is Hermione's Patronus?</h1>
+            <h2 id="first-answer" class="answer">Otter</h2>
+            <h2 id="second-answer" class="answer">Cat</h2>
+            <h2 id="third-answer" class="answer">Doe</h2>
+            <h2 id="fourth-answer" class="answer">Hare</h2>
+        </div>
+        
+        <div id="question10" class="question">
+            <h1 class="quest-title">Who does Hermione marry at the end of the series?</h1>
+            <h2 id="first-answer" class="answer">Ron Weasley</h2>
+            <h2 id="second-answer" class="answer">Harry Potter</h2>
+            <h2 id="third-answer" class="answer">Victor Krum</h2>
+            <h2 id="fourth-answer" class="answer">Draco Malfoy</h2>
+        </div>
+        <div id="next">
+            <h2>Next</h2>
+        </div>
+
+        <div id="results">
+            <h1 id="result"></h1>
+            <a href="../index.html">
+                <div>
+                    <h2 id="quiz-end" class="final-button">Try other quizzes</h2>
+                </div>
+            </a>
+            <a href="">
+                <div>
+                    <h2 id="try-again" class="final-button">Try again</h2>
+                </div>
+            </a>
+        </div>
+    </section>
+    <script src="./hermione.js"></script>
+</body>
+
+</html>

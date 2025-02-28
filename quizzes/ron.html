@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/quiz.css">
+    <title>Harry Potter Quiz</title>
+    <style>
+        .title {
+            background-image: linear-gradient(to right, #1B1B19, #d17402);
+            background-clip: text;
+            color: transparent;
+        }
+
+        .quest-title {
+            background-image: linear-gradient(to right, #C4C2B7, #d17402);
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="mobile-nav">
+        <img src="../images/harrypotterpng.png" alt="Harry Potter">
+        <h1 class="title">Ron Weasley Quiz</h1>
+        <img src="../images/deathHallows.png" alt="">
+    </nav>
+
+    <section>
+        <div id="question1" class="question">
+
+            <h1 class="quest-title">What is Ron Weasley's middle name?</h1>
+            <h2 id="first-answer" class="answer">Arthur</h2>
+            <h2 id="second-answer" class="answer">Bilius</h2>
+            <h2 id="third-answer" class="answer">James</h2>
+            <h2 id="fourth-answer" class="answer">Percival</h2>
+        </div>
+
+        <div id="question2" class="question">
+
+            <h1 class="quest-title">How many siblings does Ron have?</h1>
+            <h2 id="first-answer" class="answer number">5</h2>
+            <h2 id="second-answer" class="answer number">6</h2>
+            <h2 id="third-answer" class="answer number">7</h2>
+            <h2 id="fourth-answer" class="answer number">4</h2>
+
+        </div>
+
+        <div id="question3" class="question">
+
+            <h1 class="quest-title">What is the name of Ron's pet rat?</h1>
+            <h2 id="first-answer" class="answer">Trevor</h2>
+            <h2 id="second-answer" class="answer">Scabbers</h2>
+            <h2 id="third-answer" class="answer">Fluffy</h2>
+            <h2 id="fourth-answer" class="answer">Crookshanks</h2>
+
+
+        </div>
+
+        <div id="question4" class="question">
+
+            <h1 class="quest-title">What is Ron most afraid of?</h1>
+            <h2 id="first-answer" class="answer">Spiders</h2>
+            <h2 id="second-answer" class="answer">Snakes</h2>
+            <h2 id="third-answer" class="answer">Dementors</h2>
+            <h2 id="fourth-answer" class="answer">Professor Snape</h2>
+
+        </div>
+
+        <div id="question5" class="question">
+
+            <h1 class="quest-title">What color is Ron's first Yule Ball outfit?</h1>
+            <h2 id="first-answer" class="answer">Black</h2>
+            <h2 id="second-answer" class="answer">Green</h2>
+            <h2 id="third-answer" class="answer">Brown</h2>
+            <h2 id="fourth-answer" class="answer">Burgundy with lace</h2>
+
+        </div>
+
+        <div id="question6" class="question">
+
+            <h1 class="quest-title">What is the name of Ron’s sister?</h1>
+            <h2 id="first-answer" class="answer">Luna</h2>
+            <h2 id="second-answer" class="answer">Hermione</h2>
+            <h2 id="third-answer" class="answer">Ginny</h2>
+            <h2 id="fourth-answer" class="answer">Angelina</h2>
+
+        </div>
+
+        <div id="question7" class="question">
+
+            <h1 class="quest-title">Which Quidditch team does Ron support?</h1>
+            <h2 id="first-answer" class="answer">Puddlemere United</h2>
+            <h2 id="second-answer" class="answer">Tutshill Tornados</h2>
+            <h2 id="third-answer" class="answer">Chudley Cannons</h2>
+            <h2 id="fourth-answer" class="answer">Holyhead Harpies</h2>
+
+        </div>
+
+        <div id="question8" class="question">
+
+            <h1 class="quest-title">Which magical object makes Ron believe he is "The Best"?</h1>
+            <h2 id="first-answer" class="answer">A cursed wand</h2>
+            <h2 id="second-answer" class="answer">Slytherin’s Locket</h2>
+            <h2 id="third-answer" class="answer">Felix Felicis Potion</h2>
+            <h2 id="fourth-answer" class="answer">"Prefect" Badge</h2>
+
+        </div>
+
+        <div id="question9" class="question">
+
+            <h1 class="quest-title">What Christmas gift does Ron receive every year from his mother?</h1>
+            <h2 id="first-answer" class="answer">A book</h2>
+            <h2 id="second-answer" class="answer">A broomstick</h2>
+            <h2 id="third-answer" class="answer">A handmade sweater</h2>
+            <h2 id="fourth-answer" class="answer">A chocolate frog</h2>
+
+        </div>
+
+        <div id="question10" class="question">
+
+            <h1 class="quest-title">Who does Ron marry at the end of the series?</h1>
+            <h2 id="first-answer" class="answer">Hermione Granger</h2>
+            <h2 id="second-answer" class="answer">Luna Lovegood</h2>
+            <h2 id="third-answer" class="answer">Lavender Brown</h2>
+            <h2 id="fourth-answer" class="answer">Fleur Delacour</h2>
+
+        </div>
+        <div id="next">
+            <h2>Next</h2>
+        </div>
+
+        <div id="results">
+            <h1 id="result"></h1>
+            <a href="../index.html">
+                <div>
+                    <h2 id="quiz-end" class="final-button">Try other quizzes</h2>
+                </div>
+            </a>
+            <a href="">
+                <div>
+                    <h2 id="try-again" class="final-button">Try again</h2>
+                </div>
+            </a>
+        </div>
+    </section>
+    <script src="./ron.js"></script>
+</body>
+
+</html>

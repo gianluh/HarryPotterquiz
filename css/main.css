@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'HarryP';
+    src: url('../font/HARRYP__.woff2') format('woff2'),
+        url('../font/HARRYP__.woff') format('woff'),
+        url('../font/HARRYP__.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Magic Owl';
+    src: url('../font/MagicOwlPersonalUse-WyO0O.woff2') format('woff2'),
+        url('../font/MagicOwlPersonalUse-WyO0O.woff') format('woff'),
+        url('../font/MagicOwlPersonalUse-WyO0O.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Scary Notes';
+    src: url('../font/ScaryNotesPersonalUse-ZVAxl.woff2') format('woff2'),
+         url('../font/ScaryNotesPersonalUse-ZVAxl.woff') format('woff'),
+         url('../font/ScaryNotesPersonalUse-ZVAxl.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Dragon Hunter';
+    src: url('../font/DragonHunter-9Ynxj.woff2') format('woff2'),
+         url('../font/DragonHunter-9Ynxj.woff') format('woff'),
+         url('../font/DragonHunter-9Ynxj.ttf') format('ttf');
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+body {
+    -ms-overflow-style: none;
+    background-color: #1B1B19;
+    margin: 0;
+    padding: 0;
+}
+
+#opening {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    transform: scale(1.3);
+    margin-top: 9rem;
+}
+
+a {
+    text-decoration: none;
+    color: #C4C2B7;
+}
+
+.mobile-nav {
+    background-color: #C4C2B7;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Scary Notes';
+    max-height: 66.81px;
+    gap: 30px;
+    box-shadow: 0 0 25px rgba(196, 194, 183, 1);
+}
+
+#header {
+    margin-top: 6rem;
+    font-family: 'Magic Owl';
+    color: #C4C2B7;
+    text-align: center;
+}
+
+.stickers {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    gap: 3rem;
+}
+
+.start {
+    background-color: #1B1B19;
+    width: 8rem;
+    margin: auto;
+    padding: 5px;
+    border-radius: 1rem;
+    color: #C4C2B7;
+}
+
+.quiz {
+    font-family: 'Dragon Hunter';
+    background-color: #C4C2B7;
+    width: 75%;
+    margin: auto;
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 0 15px rgba(196, 194, 183, 1);
+    border-radius: 0.5rem;
+}
+
+.question-mark {
+    font-family: 'Magic Owl';
+}
+
+img[src="images/ronald.png"] {
+    transform: scale(1.2);
+}
+
+img[src="images/hermione1.png"] {
+    transform: scale(1.2);
+}
+
+img[src="images/draco1.png"] {
+    transform: scale(1.4);
+}
+
+img[src="images/draco2.png"] {
+    transform: scale(0.8);
+}
+
+.first-sticker {
+    transform: rotate(-35deg);
+}
+
+.second-sticker {
+    transform: rotate(35deg);
+}
+
+.harry-name {
+    background-image: linear-gradient(to right, #1B1B19, #931482);
+    background-clip: text;
+    color: transparent;
+}
+
+.ron-name {
+    background-image: linear-gradient(to right, #1B1B19, #d17402);
+    background-clip: text;
+    color: transparent;
+}
+
+.hermione-name {
+    background-image: linear-gradient(to right, #1B1B19, #790d0d);
+    background-clip: text;
+    color: transparent;
+}
+
+.dumbledore-name {
+    background-image: linear-gradient(to right, #1B1B19, #5c4a59);
+    background-clip: text;
+    color: transparent;
+}
+
+.draco-name {
+    background-image: linear-gradient(to right, #1B1B19, #0fa445);
+    background-clip: text;
+    color: transparent;
+}
+
+#results {
+    font-family: 'Magic Owl';
+}
+
+.number {
+    font-family: 'Magic Owl';
+}
+
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 1.4rem;
+    }
+
+    .header {
+        padding-top: 3rem;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 1fr;
+    }
+
+    .quiz {
+        justify-self: center;
+        align-self: center;
+        height: auto;
+    }
+
+    nav {
+        position: fixed;
+    }
+
+    .start:hover {
+        opacity: 0.7;
+    }
+}
